@@ -32,7 +32,7 @@ export default function Home() {
           aria-label='Global'>
           <div className='flex lg:flex-1 flex-row-reverse'>
             <a href='#' className='-m-1.5 p-1.5'>
-              <Image src={Logo} width={80} height={0} />
+              <Image src={Logo} width={80} height={0} alt='logo' />
             </a>
           </div>
           <div className='flex lg:hidden'>

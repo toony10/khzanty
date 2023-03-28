@@ -85,10 +85,8 @@ const Products = () => {
       </p>
       <div className='flex justify-center space-x-5 mt-7 max-sm:flex-col-reverse'>
         {productTypes.map((type) => (
-          <div className='max-sm:mb-4'>
-            <button
-              key={type.id}
-              class='flex flex-row-reverse max-sm:m-auto justify-between bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded '>
+          <div className='max-sm:mb-4' key={type.id}>
+            <button class='flex flex-row-reverse max-sm:m-auto justify-between bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded '>
               <div className='m-auto'>{type.icon}</div>
               <div className='mx-2'>{type.name}</div>
             </button>
