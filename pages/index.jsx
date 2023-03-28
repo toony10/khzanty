@@ -6,11 +6,11 @@ import { useState } from "react";
 import Logo from "../public/logo.jpg";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import About from "@/components/About";
-import Location from "@/components/Location";
-import Products from "@/components/products";
-import Contact from "@/components/contact";
-import Intro from "@/components/Intro";
+import About from "/components/About";
+import Location from "/components/Location";
+import Products from "/components/products";
+import Contact from "/components/contact";
+import Intro from "/components/Intro";
 
 // Arrays
 const navigation = [
