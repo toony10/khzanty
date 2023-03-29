@@ -4,12 +4,15 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-
+    "./public/**/*.html",
+    "./node_modules/flowbite-react/**/*.js",
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin"), require('tailwind-scrollbar')({ nocompatible: true }),
+  ],
+  theme: {},
 };
