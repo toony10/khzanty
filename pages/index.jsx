@@ -5,9 +5,9 @@ import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import Slider from "../components/Slider";
 import About from "../components/About";
-import Products from "../components/products";
+import Products from "../components/Products";
 import Location from "../components/Location";
-import Contact from "../components/contact";
+import Contact from "../components/Contact";
 export default function Home() {
   return (
     <div className='bg-white '>
