@@ -1,6 +1,6 @@
 const Location = () => {
   return (
-    <section className='flex flex-col justify-center' id='location'>
+    <section className='flex flex-col bg-slate-50 justify-center' id='location'>
       <h1 className='text-green-600 border-b-green-700 rounded-bl-sm border-b-4 max-w-max m-auto mt-0 mb-5 text-4xl font-medium leading-tight text-primary bg-clip-text bg-gradient-to-r p-4'>
         موقعنا
       </h1>
