@@ -83,7 +83,7 @@ const Products = () => {
                   </div>
                   <div className='mx-2'>تفاصيل</div>
                 </button>
-                <a href='tel:123-456-7890'>
+                <a href='tel:+201223657955'>
                   <button
                     // key={category.id}
                     class='flex flex-row-reverse justify-between bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md'>
