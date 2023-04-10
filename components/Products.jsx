@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
-
+import PopUp from "./PopUp";
 // Products
 import { AllProducts } from "../data/AllProducts";
 import { Beds } from "../data/Beds";
@@ -14,6 +14,7 @@ import { FaCouch } from "react-icons/fa";
 import { MdOutlineTableBar } from "react-icons/md";
 import { BiBed, BiDetail } from "react-icons/bi";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { ImZoomIn } from "react-icons/im";
 // Arrays
 
 const categories = [
@@ -26,6 +27,13 @@ const categories = [
 const Products = () => {
   const [products, setProducts] = useState(AllProducts);
 
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const togglePopup = (image) => {
+    setIsPopupOpen(!isPopupOpen);
+    setSelectedImage(image);
+  };
   return (
     <section className='bg-white' id='products'>
       <h1 className='text-green-500 border-b-green-500 rounded-bl-sm border-b-4 max-w-max m-auto mt-0 mb-2 text-4xl font-medium leading-tight text-primary bg-clip-text bg-gradient-to-r p-4'>
@@ -54,6 +62,13 @@ const Products = () => {
               key={product.id}
               className='group relative c-card p-2 shadow hover:shadow-lg rounded-md'>
               <div className='min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-95 lg:aspect-none lg:h-80'>
+                <div className='bg-green-700 bg-opacity-70  absolute z-10 right-5 top-5 w-9 p-1 rounded-md color h-9 cursor-pointer'>
+                  <ImZoomIn
+                    size={30}
+                    color='white'
+                    onClick={() => togglePopup(product.imageSrc)}
+                  />
+                </div>
                 <Image
                   width={0}
                   height={0}
@@ -62,8 +77,11 @@ const Products = () => {
              100vw"'
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className='h-full w-full object-cover object-center lg:h-full lg:w-full cursor-pointer'
+                  className='h-full w-full object-cover object-center lg:h-full lg:w-full'
                 />
+                {isPopupOpen && (
+                  <PopUp imageSrc={selectedImage} onClose={togglePopup} />
+                )}
               </div>
               <div className='mt-4 flex justify-between flex-row-reverse'>
                 <div>
