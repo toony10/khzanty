@@ -3,15 +3,14 @@ import Home1 from "/public/imgs/Home1.jpg";
 import Home2 from "../public/imgs/Home2.jpg";
 import Home3 from "../public/imgs/Home3.jpg";
 import { Carousel } from "flowbite-react";
+import Head from "next/head";
 
-// items = [{ imgSrc: Home1 }, { imgSrc: Home2 }, { imgSrc: Home3 }];
-// h-56 sm:h-64 xl:h-80 2xl:h-96 relative w-full
 const Slider = () => {
   return (
     <div className='h-56 sm:h-[30rem] xl:h-[45rem] relative w-full flex justify-center'>
-      <div className='absolute z-10 bg-black bg-opacity-25 inset-0 flex justify-center items-center'>
+      <div className='absolute z-10 bg-black bg-opacity-60 inset-0 flex justify-center items-center'>
         <div className='text-center'>
-          <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
+          <h1 className='text-4xl font-bold tracking-tight text-white sm:text-6xl'>
             اختر اثاثك بعنايه
           </h1>
           <p className='mt-6 text-lg leading-8 text-gray-600'>

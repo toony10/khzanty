@@ -1,29 +1,33 @@
+import Image from "next/image";
+
+// icons
+import { GrClose } from "react-icons/gr";
+
 const PopUp = ({ imageSrc, onClose }) => {
   return (
-    <div className='fixed z-10 inset-0 overflow-y-auto w-full'>
-      <div className='flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0 popup'>
-        <div className='fixed inset-0 transition-opacity' aria-hidden='true'>
-          <div className='absolute inset-0 bg-gray-500 w-full'></div>
-        </div>
-        <div className='inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full'>
-          <div className='bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4'>
-            <div className='sm:flex sm:items-start'>
-              <img
-                src={imageSrc}
-                alt=''
-                className='sm:flex-shrink-0 sm:h-48 sm:w-48 object-contain mx-auto'
-              />
-            </div>
-          </div>
-          <div className='bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse'>
-            <button
-              type='button'
-              className='w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-green-600 text-base font-medium text-white hover:bg-green-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:ml-3 sm:w-auto sm:text-sm'
-              onClick={onClose}>
-              أغلاق
-            </button>
-          </div>
-        </div>
+    <div
+      onClick={onClose}
+      className='fixed bg-gray-900 bg-opacity-20 flex z-10 inset-0 overflow-y-auto items-center justify-center'>
+      <div className=' bg-opacity-70  absolute z-10 right-5 top-5 w-9 p-1 rounded-md color h-9 cursor-pointer'>
+        <GrClose size={30} color='red' onClick={onClose} />
+      </div>
+      <div className=' rounded-lg transform transition-all'>
+        <Image
+          sizes='100vw'
+          width={0}
+          height={0}
+          src={imageSrc}
+          alt='product'
+          className='object-contain mx-auto w-[90vw] max-h-[82vh]'
+        />
+        {/*  <div className='px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse'>
+          <button
+            type='button'
+            className='w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-green-600 text-base font-medium text-white hover:bg-green-700 focus:ring-2 focus:ring-offset-2 sm:ml-3 sm:w-auto focus:outline-green-500 sm:text-sm'
+            onClick={onClose}>
+            أغلاق
+          </button>
+  </div>*/}
       </div>
     </div>
   );

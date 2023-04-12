@@ -30,9 +30,14 @@ const Products = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
+  console.log({ isPopupOpen });
+
   const togglePopup = (image) => {
     setIsPopupOpen(!isPopupOpen);
     setSelectedImage(image);
+  };
+  const closePopUp = () => {
+    setIsPopupOpen(false);
   };
   return (
     <section className='bg-white' id='products'>
@@ -77,11 +82,8 @@ const Products = () => {
              100vw"'
                   src={product.imageSrc}
                   alt={product.imageAlt}
-                  className='h-full w-full object-cover object-center lg:h-full lg:w-full'
+                  className='h-full w-full object-contain bg-white'
                 />
-                {isPopupOpen && (
-                  <PopUp imageSrc={selectedImage} onClose={togglePopup} />
-                )}
               </div>
               <div className='mt-4 flex justify-between flex-row-reverse'>
                 <div>
@@ -114,6 +116,9 @@ const Products = () => {
               </div>
             </div>
           ))}
+          {isPopupOpen && (
+            <PopUp imageSrc={selectedImage} onClose={closePopUp} />
+          )}
         </div>
       </div>
     </section>
