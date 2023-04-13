@@ -10,16 +10,19 @@ import {
 
 const contactInfo = [
   {
+    id: 1,
     text: "الواسطي , بني سويف , مصر",
     icon: <ImLocation2 className='m-auto' color='green' />,
     href: "https://www.google.com/maps/@29.300449,31.201127,16z?hl=ar",
   },
   {
+    id: 2,
     text: "+01090677513",
     icon: <BsFillTelephoneFill className='m-auto' color='green' />,
     href: "tel:+201223657955",
   },
   {
+    id: 3,
     text: "amiranton257@gmail.com",
     icon: <MdEmail className='m-auto' color='green' />,
     href: "mailto: amiranton257@gmail.com",
@@ -41,7 +44,7 @@ const Location = () => {
       <div className='flex justify-center md:flex-row-reverse flex-col-reverse '>
         <div className='text-center m-auto md:w-1/2 w-full'>
           {contactInfo.map((info) => (
-            <a href={info.href} target='_blank'>
+            <a key={info.id} href={info.href} target='_blank'>
               <div className='my-5'>
                 {info.icon}
                 <p>{info.text}</p>
