@@ -6,7 +6,8 @@ export const Beds = [
     imageSrc: "/products/Beds/1.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#190",
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ export const Beds = [
     imageSrc: "/products/Beds/2.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#191",
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ export const Beds = [
     imageSrc: "/products/Beds/3.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#192",
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ export const Beds = [
     imageSrc: "/products/Beds/4.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#193",
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ export const Beds = [
     imageSrc: "/products/Beds/5.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#194",
   },
   {
     id: 6,
@@ -51,7 +56,8 @@ export const Beds = [
     imageSrc: "/products/Beds/6.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#195",
   },
   {
     id: 7,
@@ -60,7 +66,8 @@ export const Beds = [
     imageSrc: "/products/Beds/7.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#196",
   },
   {
     id: 8,
@@ -69,7 +76,8 @@ export const Beds = [
     imageSrc: "/products/Beds/8.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#197",
   },
   {
     id: 9,
@@ -78,7 +86,8 @@ export const Beds = [
     imageSrc: "/products/Beds/9.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#198",
   },
   {
     id: 10,
@@ -87,7 +96,8 @@ export const Beds = [
     imageSrc: "/products/Beds/10.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#199",
   },
   {
     id: 11,
@@ -96,7 +106,8 @@ export const Beds = [
     imageSrc: "/products/Beds/11.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#200",
   },
   {
     id: 12,
@@ -105,7 +116,8 @@ export const Beds = [
     imageSrc: "/products/Beds/12.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#201",
   },
   {
     id: 13,
@@ -114,7 +126,8 @@ export const Beds = [
     imageSrc: "/products/Beds/13.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#202",
   },
   {
     id: 14,
@@ -123,7 +136,8 @@ export const Beds = [
     imageSrc: "/products/Beds/14.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#203",
   },
   {
     id: 15,
@@ -132,7 +146,8 @@ export const Beds = [
     imageSrc: "/products/Beds/15.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#204",
   },
   {
     id: 16,
@@ -141,6 +156,7 @@ export const Beds = [
     imageSrc: "/products/Beds/16.jpg",
     imageAlt: "سرير",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#205",
   },
 ];

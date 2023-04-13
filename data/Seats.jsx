@@ -6,7 +6,8 @@ export const Seats = [
     imageSrc: "/products/Seats/1.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#160",
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ export const Seats = [
     imageSrc: "/products/Seats/2.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#161",
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ export const Seats = [
     imageSrc: "/products/Seats/3.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#162",
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ export const Seats = [
     imageSrc: "/products/Seats/4.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#163",
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ export const Seats = [
     imageSrc: "/products/Seats/5.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#164",
   },
   {
     id: 6,
@@ -51,7 +56,8 @@ export const Seats = [
     imageSrc: "/products/Seats/6.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#165",
   },
   {
     id: 7,
@@ -60,7 +66,8 @@ export const Seats = [
     imageSrc: "/products/Seats/7.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#166",
   },
   {
     id: 8,
@@ -69,7 +76,8 @@ export const Seats = [
     imageSrc: "/products/Seats/8.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#167",
   },
   {
     id: 9,
@@ -78,7 +86,8 @@ export const Seats = [
     imageSrc: "/products/Seats/9.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#168",
   },
   {
     id: 10,
@@ -87,7 +96,8 @@ export const Seats = [
     imageSrc: "/products/Seats/10.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#169",
   },
   {
     id: 11,
@@ -96,7 +106,8 @@ export const Seats = [
     imageSrc: "/products/Seats/11.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#170",
   },
   {
     id: 12,
@@ -105,7 +116,8 @@ export const Seats = [
     imageSrc: "/products/Seats/12.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#171",
   },
   {
     id: 13,
@@ -114,7 +126,8 @@ export const Seats = [
     imageSrc: "/products/Seats/13.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#172",
   },
   {
     id: 14,
@@ -123,7 +136,8 @@ export const Seats = [
     imageSrc: "/products/Seats/14.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#173",
   },
   {
     id: 15,
@@ -132,7 +146,8 @@ export const Seats = [
     imageSrc: "/products/Seats/15.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#174",
   },
   {
     id: 16,
@@ -141,7 +156,8 @@ export const Seats = [
     imageSrc: "/products/Seats/16.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#175",
   },
   {
     id: 17,
@@ -150,7 +166,8 @@ export const Seats = [
     imageSrc: "/products/Seats/17.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#176",
   },
   {
     id: 18,
@@ -159,7 +176,8 @@ export const Seats = [
     imageSrc: "/products/Seats/18.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#177",
   },
   {
     id: 19,
@@ -168,7 +186,8 @@ export const Seats = [
     imageSrc: "/products/Seats/19.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#178",
   },
   {
     id: 20,
@@ -177,7 +196,8 @@ export const Seats = [
     imageSrc: "/products/Seats/20.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#179",
   },
   {
     id: 21,
@@ -186,7 +206,8 @@ export const Seats = [
     imageSrc: "/products/Seats/21.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#180",
   },
   ,
   {
@@ -196,7 +217,8 @@ export const Seats = [
     imageSrc: "/products/Seats/22.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#181",
   },
   ,
   {
@@ -206,7 +228,8 @@ export const Seats = [
     imageSrc: "/products/Seats/23.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#182",
   },
   ,
   {
@@ -216,7 +239,8 @@ export const Seats = [
     imageSrc: "/products/Seats/24.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#183",
   },
   ,
   {
@@ -226,7 +250,8 @@ export const Seats = [
     imageSrc: "/products/Seats/25.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#184",
   },
   ,
   {
@@ -236,7 +261,8 @@ export const Seats = [
     imageSrc: "/products/Seats/26.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#185",
   },
   ,
   {
@@ -246,7 +272,8 @@ export const Seats = [
     imageSrc: "/products/Seats/27.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#186",
   },
   ,
   {
@@ -256,7 +283,8 @@ export const Seats = [
     imageSrc: "/products/Seats/28.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#187",
   },
 
   {
@@ -266,7 +294,8 @@ export const Seats = [
     imageSrc: "/products/Seats/29.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#188",
   },
   {
     id: 30,
@@ -275,6 +304,7 @@ export const Seats = [
     imageSrc: "/products/Seats/30.jpg",
     imageAlt: "مقعد",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#189",
   },
 ];

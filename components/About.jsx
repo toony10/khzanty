@@ -24,16 +24,21 @@ const About = () => {
             <h2 className='text-2xl text-gray-900 font-bold md:text-4xl text-right'>
               محل بيع اثاث
             </h2>
-            <p className='mt-6 text-gray-600 text-right'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-              omnis voluptatem accusantium nemo perspiciatis delectus atque
-              autem! Voluptatum tenetur beatae unde aperiam, repellat expedita
-              consequatur! Officiis id consequatur atque doloremque!
+            <p className='mt-6 text-gray-600 text-right leading-8	'>
+              فى خزانتى نوفر خدمات التصميم والصيانة لجميع أنواع الأثاث الخشبي،
+              بما في ذلك خزانات الملابس والمطابخ وغرف النوم والحمامات. كما نتخصص
+              في تصميم وتصنيع السراير والمقاعد والطاولات المنزلية، بأسعار
+              تنافسية وجودة عالية.
             </p>
-            <p className='mt-4 text-gray-600 text-right'>
-              Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
-              expedita at? Asperiores nemo possimus nesciunt dicta veniam
-              aspernatur quam mollitia.
+            <p className='mt-4 text-gray-600 text-right leading-8'>
+              يمكن لفريقنا المتخصص في النجارة تصميم وتصنيع أي نوع من الأثاث
+              المنزلي حسب رغبات العميل، بدءًا من التصميم الأولي وحتى التركيب
+              والتشطيب النهائي. كما نوفر خدمات الصيانة الدورية لجميع أنواع
+              الأثاث الخشبي للحفاظ عليه في حالة جيدة وتجديده في حال الضرورة.
+            </p>{" "}
+            <p className='mt-4 text-gray-600 text-right leading-8'>
+              اتصل بنا اليوم للحصول على خدمات التصميم والصيانة النجارية الخاصة
+              بك، وسنكون سعداء بمساعدتك في تحقيق رؤية منزلك الخشبي المثالي."
             </p>
           </div>
         </div>

@@ -6,7 +6,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/1.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#101",
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/2.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#102",
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/3.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#103",
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/4.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#104",
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/5.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#105",
   },
   {
     id: 6,
@@ -51,7 +56,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/6.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#106",
   },
   {
     id: 7,
@@ -60,7 +66,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/7.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#107",
   },
   {
     id: 8,
@@ -69,7 +76,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/8.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#108",
   },
   {
     id: 9,
@@ -78,7 +86,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/9.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#109",
   },
   {
     id: 10,
@@ -87,7 +96,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/10.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#110",
   },
   {
     id: 11,
@@ -96,7 +106,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/11.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#111",
   },
   {
     id: 12,
@@ -105,7 +116,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/12.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#112",
   },
   {
     id: 13,
@@ -114,7 +126,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/13.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#113",
   },
   {
     id: 14,
@@ -123,7 +136,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/14.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#114",
   },
   {
     id: 15,
@@ -132,7 +146,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/15.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#115",
   },
   {
     id: 16,
@@ -141,7 +156,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/16.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#116",
   },
   {
     id: 17,
@@ -150,7 +166,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/17.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#117",
   },
   {
     id: 18,
@@ -159,7 +176,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/18.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#118",
   },
   {
     id: 19,
@@ -168,7 +186,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/19.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#119",
   },
   {
     id: 20,
@@ -177,7 +196,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/20.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#120",
   },
   {
     id: 21,
@@ -186,7 +206,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/21.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#121",
   },
   ,
   {
@@ -196,7 +217,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/22.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#122",
   },
   ,
   {
@@ -206,7 +228,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/23.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#123",
   },
   ,
   {
@@ -216,7 +239,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/24.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#124",
   },
   ,
   {
@@ -226,7 +250,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/25.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#125",
   },
   ,
   {
@@ -236,7 +261,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/26.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#126",
   },
   ,
   {
@@ -246,7 +272,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/27.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#127",
   },
   ,
   {
@@ -256,7 +283,8 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/28.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#128",
   },
   ,
   {
@@ -266,6 +294,7 @@ export const Wardrobes = [
     imageSrc: "/products/Wardrobes/29.jpg",
     imageAlt: "خزانه",
     price: "$35",
-    color: "تفاصيل المنتج",
+    details: "تفاصيل المنتج",
+    code: "#129",
   },
 ];

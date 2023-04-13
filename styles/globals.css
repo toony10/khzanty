@@ -54,3 +54,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* fonts */
+@font-face {
+  font-family: "arabic-font";
+  src: url("../public/fonts/alfont_com_AlFont_com_4_E3.ttf");
+}
+.arabic-font {
+  font-family: arabic-font;
+}

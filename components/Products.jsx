@@ -39,6 +39,10 @@ const Products = () => {
   const closePopUp = () => {
     setIsPopupOpen(false);
   };
+  const shuffle = (arr) => {
+    arr.sort(() => Math.random() - 0.5);
+  };
+
   return (
     <section className='bg-white' id='products'>
       <h1 className='text-green-500 border-b-green-500 rounded-bl-sm border-b-4 max-w-max m-auto mt-0 mb-2 text-4xl font-medium leading-tight text-primary bg-clip-text bg-gradient-to-r p-4'>
@@ -53,6 +57,10 @@ const Products = () => {
             key={category.id}
             onClick={() => {
               setProducts(category.data);
+              window.scrollTo({
+                top: 1500,
+                behavior: "smooth",
+              });
             }}
             class='flex flex-row-reverse w-[35%] sm:w-auto bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md'>
             <div className='m-auto'>{category.icon}</div>
@@ -87,13 +95,15 @@ const Products = () => {
               </div>
               <div className='mt-4 flex justify-between flex-row-reverse'>
                 <div>
-                  <h3 className='text-sm text-gray-700'>
+                  <h3 className='text-sm text-gray-700 text-right'>
                     <a href={product.href}>{product.name}</a>
                   </h3>
-                  <p className='mt-1 text-sm text-gray-500'>{product.color}</p>
+                  <p className='mt-1 text-sm text-gray-500'>
+                    {product.details}
+                  </p>
                 </div>
-                <p className='text-sm font-medium text-gray-900'>
-                  {product.price}
+                <p className='text-sm font-normal text-gray-900'>
+                  كود: <span className='font-bold'>{product.code}</span>
                 </p>
               </div>
               <div className='flex justify-between mt-4'>
