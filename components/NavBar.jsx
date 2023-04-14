@@ -42,9 +42,8 @@ const NavBar = () => {
       <div className='max-w-[1240px] lg:max-w-[1515px] m-auto flex justify-between items-center p-4 text-white'>
         <ul className='hidden sm:flex' style={{ color: `${textColor}` }}>
           {navigation.map((item) => (
-            <li className='p-4'>
+            <li className='p-4' key={item.id}>
               <Link
-                key={item.id}
                 href={item.href}
                 className='hover-underline-animation text-base font-semibold leading-6 pb-1'>
                 {item.name}
@@ -73,10 +72,9 @@ const NavBar = () => {
           }>
           <ul>
             {navigation.map((item) => (
-              <li className='p-4 text-4xl hover:text-gray-500 '>
+              <li className='p-4 text-4xl hover:text-gray-500' key={item.id}>
                 <Link
                   onClick={handleNav}
-                  key={item.id}
                   href={item.href}
                   className='hover-underline-animation text-base font-semibold leading-6 text-gray-900 pb-1'>
                   {item.name}
@@ -86,7 +84,13 @@ const NavBar = () => {
           </ul>
         </div>
         <Link href='/'>
-          <Image src='/logo.png' width={100} height={0} sizes='100vw' />
+          <Image
+            src='/logo.png'
+            width={100}
+            height={0}
+            sizes='100vw'
+            alt='logo'
+          />
         </Link>
       </div>
     </div>
