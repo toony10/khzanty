@@ -1,6 +1,9 @@
-const navigation = [
-  { name: "من نحن؟", href: "#about-us", id: 1 },
-  { name: "منتجاتنا", href: "#products", id: 2 },
-  { name: "موقعنا", href: "#location", id: 3 },
-  { name: "تواصل معنا", href: "#contact", id: 4 },
-];
+<form ref={form} onSubmit={sendEmail}>
+  <label>Name</label>
+  <input type='text' name='user_name' />
+  <label>Email</label>
+  <input type='email' name='user_email' />
+  <label>Message</label>
+  <textarea name='message' />
+  <input type='submit' value='Send' />
+</form>;
