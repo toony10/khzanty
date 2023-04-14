@@ -30,8 +30,6 @@ const Products = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
-  console.log({ isPopupOpen });
-
   const togglePopup = (image) => {
     setIsPopupOpen(!isPopupOpen);
     setSelectedImage(image);
@@ -42,6 +40,8 @@ const Products = () => {
   const shuffle = (arr) => {
     arr.sort(() => Math.random() - 0.5);
   };
+
+  // shuffle(products);
 
   return (
     <section className='bg-white' id='products'>
@@ -68,7 +68,9 @@ const Products = () => {
           </button>
         ))}
       </div>
-      <div className='mx-auto max-w-2xl py-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8'>
+      <div
+        suppressHydrationWarning
+        className='mx-auto max-w-2xl py-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8'>
         <div
           id='all-products'
           className='mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8'>

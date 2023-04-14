@@ -1,4 +1,5 @@
 import Image from "next/image";
+import aboutImg from "../public/imgs/about/about.png";
 const About = () => {
   return (
     <section className='py-16 bg-white' id='about-us'>
@@ -8,16 +9,17 @@ const About = () => {
       <p className='font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl'>
         نبذه مختصره عنا وعن خدماتنا
       </p>
-      <div className='container m-auto px-6 text-gray-600 md:px-12 xl:px-6'>
+      <div className='container m-auto px-6 text-gray-600 md:px-12 xl:px-6 mt-7'>
         <div className='space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12'>
           <div className='md:5/12 lg:w-5/12'>
             <Image
-              src='https://tailus.io/sources/blocks/left-image/preview/images/startup.png'
+              src={aboutImg}
               alt='image'
               loading='lazy'
               width={1000}
               height={0}
               sizes='50vw'
+              className='rounded-l-2xl'
             />
           </div>
           <div className='md:7/12 lg:w-6/12'>

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import Home1 from "/public/imgs/Home1.jpg";
-import Home2 from "../public/imgs/Home2.jpg";
-import Home3 from "../public/imgs/Home3.jpg";
+import Home1 from "/public/imgs/slider/Home1.jpg";
+import Home2 from "/public/imgs/slider/Home2.jpg";
+import Home3 from "/public/imgs/slider/Home3.png";
 import { Carousel } from "flowbite-react";
 
 const Slider = () => {
@@ -16,11 +16,11 @@ const Slider = () => {
           <p className='mt-0 lg:mt-6 text-lg lg:text-2xl leading-8 text-gray-200'>
             نقدم خدمات التصنيع والصيانة لجميع أنواع الأثاث الخشبي
           </p>
-          <p className='mt-0 lg:mt-6 text-lg lg:text-2xl leading-8 text-gray-200'>
+          <p className='mt-0 lg:mt-8 text-lg lg:text-2xl leading-8 text-gray-200'>
             نحن نهتم بتوفير منتجات عالية الجودة وخدمات احترافية لتلبية احتياجات
             عملائنا
           </p>
-          <div className='mt-3 lg:mt-10 flex justify-end  gap-x-6'>
+          <div className='mt-3 lg:mt-20 flex justify-end  gap-x-6'>
             <Link
               href='#products'
               className='rounded-md bg-green-600 px-3.5 py-2.5 text-sm lg:text-lg font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600'>
@@ -35,9 +35,9 @@ const Slider = () => {
         indicators={false}
         rightControl=' '
         leftControl=' '>
-        <Image width={0} height={0} sizes='100vw' src={Home3.src} alt='lol' />
-        <Image width={0} height={0} sizes='100vw' src={Home2.src} alt='lol' />
         <Image width={0} height={0} sizes='100vw' src={Home1.src} alt='lol' />
+        <Image width={0} height={0} sizes='100vw' src={Home2.src} alt='lol' />
+        <Image width={0} height={0} sizes='100vw' src={Home3.src} alt='lol' />
       </Carousel>
     </div>
   );

@@ -19,7 +19,7 @@ const contactInfo = [
     id: 2,
     text: "+01090677513",
     icon: <BsFillTelephoneFill className='m-auto' color='green' />,
-    href: "tel:+201223657955",
+    href: "https://wa.me/01090677513",
   },
   {
     id: 3,
