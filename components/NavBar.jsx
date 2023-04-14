@@ -1,8 +1,7 @@
 import Image from "next/image";
-import Logo from "../public/logo.jpg";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { useState } from "react";
+import Link from "next/link";
+import React, { useState, useEffect } from "react";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const navigation = [
   { name: "من نحن؟", href: "#about-us", id: 1 },
@@ -10,73 +9,87 @@ const navigation = [
   { name: "موقعنا", href: "#location", id: 3 },
   { name: "تواصل معنا", href: "#contact", id: 4 },
 ];
+
 const NavBar = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [nav, setNav] = useState(false);
+  const [bgColor, setBgColor] = useState("transparent");
+  const [textColor, setTextColor] = useState("white");
+  const [shadow, setShadow] = useState("none");
+  const handleNav = () => {
+    setNav(!nav);
+  };
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 90) {
+        setBgColor("#ffffff");
+        setTextColor("#000000");
+        setShadow(
+          "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px"
+        );
+      } else {
+        setBgColor("transparent");
+        setTextColor("#ffffff");
+        setShadow("none");
+      }
+    };
+    window.addEventListener("scroll", changeColor);
+  }, []);
 
   return (
-    <header className='inset-x-0 top-0 z-50'>
-      <nav
-        className='flex items-center justify-between m-2 lg:px-8 flex-row-reverse'
-        aria-label='Global'>
-        <div className='flex lg:flex-1 flex-row-reverse'>
-          <a href='#' className='-m-1.5 p-1.5'>
-            <Image src={Logo} width={80} height={0} alt='logo' />
-          </a>
-        </div>
-        <div className='flex lg:hidden'>
-          <button
-            type='button'
-            className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700'
-            onClick={() => setMobileMenuOpen(true)}>
-            <span className='sr-only'>Open main menu</span>
-            <Bars3Icon className='h-6 w-6' aria-hidden='true' />
-          </button>
-        </div>
-        <div className='hidden lg:flex lg:gap-x-12  flex-row-reverse'>
+    <div
+      className='fixed right-0 top-0 w-full z-20 ease-in duration-300'
+      style={{ backgroundColor: `${bgColor}`, boxShadow: `${shadow}` }}>
+      <div className='max-w-[1240px] lg:max-w-[1515px] m-auto flex justify-between items-center p-4 text-white'>
+        <ul className='hidden sm:flex' style={{ color: `${textColor}` }}>
           {navigation.map((item) => (
-            <a
-              key={item.id}
-              href={item.href}
-              className='hover-underline-animation text-base font-semibold leading-6 text-gray-900 pb-1'>
-              {item.name}
-            </a>
+            <li className='p-4'>
+              <Link
+                key={item.id}
+                href={item.href}
+                className='hover-underline-animation text-base font-semibold leading-6 pb-1'>
+                {item.name}
+              </Link>
+            </li>
           ))}
+        </ul>
+        {/*mobile Button*/}
+        <div onClick={handleNav} className='block sm:hidden z-10'>
+          {nav ? (
+            <AiOutlineClose size={20} color='black' />
+          ) : (
+            <AiOutlineMenu
+              size={20}
+              color='white'
+              style={{ color: `${textColor}` }}
+            />
+          )}
         </div>
-      </nav>
-      <Dialog
-        as='div'
-        className='lg:hidden'
-        open={mobileMenuOpen}
-        onClose={setMobileMenuOpen}>
-        <div className='fixed inset-0 z-50' />
-        <Dialog.Panel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
-          <div className='flex items-center justify-between'>
-            <button
-              type='button'
-              className='-m-2.5 rounded-md p-2.5 text-gray-700'
-              onClick={() => setMobileMenuOpen(false)}>
-              <span className='sr-only'>Close menu</span>
-              <XMarkIcon className='h-6 w-6' aria-hidden='true' />
-            </button>
-          </div>
-          <div className='mt-6 flow-root'>
-            <div className='-my-6 divide-y divide-gray-500/10'>
-              <div className='space-y-2 py-6'>
-                {navigation.map((item) => (
-                  <a
-                    key={item.id}
-                    href={item.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
-                    {item.name}
-                  </a>
-                ))}
-              </div>
-            </div>
-          </div>
-        </Dialog.Panel>
-      </Dialog>
-    </header>
+        {/*mobile menu*/}
+        <div
+          className={
+            nav
+              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300"
+              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300"
+          }>
+          <ul>
+            {navigation.map((item) => (
+              <li className='p-4 text-4xl hover:text-gray-500 '>
+                <Link
+                  onClick={handleNav}
+                  key={item.id}
+                  href={item.href}
+                  className='hover-underline-animation text-base font-semibold leading-6 text-gray-900 pb-1'>
+                  {item.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <Link href='/'>
+          <Image src='/logo.png' width={100} height={0} sizes='100vw' />
+        </Link>
+      </div>
+    </div>
   );
 };
 
