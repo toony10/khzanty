@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Home1 from "/public/imgs/Home1.jpg";
 import Home2 from "../public/imgs/Home2.jpg";
 import Home3 from "../public/imgs/Home3.jpg";
@@ -20,11 +21,11 @@ const Slider = () => {
             عملائنا
           </p>
           <div className='mt-3 lg:mt-10 flex justify-end  gap-x-6'>
-            <a
+            <Link
               href='#products'
               className='rounded-md bg-green-600 px-3.5 py-2.5 text-sm lg:text-lg font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600'>
               ابدأ رحلتك معنا الأن
-            </a>
+            </Link>
           </div>
         </div>
       </div>

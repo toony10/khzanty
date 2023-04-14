@@ -209,7 +209,6 @@ export const Wardrobes = [
     details: "تفاصيل المنتج",
     code: "#121",
   },
-  ,
   {
     id: 22,
     name: "خزانه",
@@ -296,5 +295,16 @@ export const Wardrobes = [
     price: "$35",
     details: "تفاصيل المنتج",
     code: "#129",
+  },
+  ,
+  {
+    id: 30,
+    name: "خزانه",
+    href: "#",
+    imageSrc: "/products/Wardrobes/30.jpg",
+    imageAlt: "خزانه",
+    price: "$35",
+    details: "تفاصيل المنتج",
+    code: "#130",
   },
 ];
