@@ -11,15 +11,16 @@ import {
 const contactInfo = [
   {
     id: 1,
-    text: "الواسطي , بني سويف , مصر",
+    text: "الحسين بن علي ,ال مصاف ,الرياض ,المملكه العربيه السعوديه",
     icon: <ImLocation2 className='m-auto' color='green' />,
-    href: "https://www.google.com/maps/@29.300449,31.201127,16z?hl=ar",
+    href:
+      "https://www.google.com/maps/@29.300449,31.201127,16z?hl=arhttps://www.google.com/maps/place/24%C2%B046'09.6%22N+46%C2%B041'21.3%22E/@24.7693249,46.6870564,17z/data=!3m1!4b1!4m4!3m3!8m2!3d24.7693249!4d46.6892451?hl=en",
   },
   {
     id: 2,
-    text: "+01090677513",
+    text: "+9660565703612",
     icon: <BsFillTelephoneFill className='m-auto' color='green' />,
-    href: "https://wa.me/01090677513",
+    href: "tel:+9660565703612",
   },
   {
     id: 3,
@@ -58,7 +59,9 @@ const Location = () => {
             <a href='#' className='cursor-pointer'>
               <RiFacebookCircleFill className='h-9 w-8 fill-blue-700 hover:w-12' />
             </a>
-            <a href='#' className='cursor-pointer'>
+            <a
+              href='https://www.instagram.com/ramzyamgd/'
+              className='cursor-pointer'>
               <RiInstagramFill className='h-9 w-8 fill-purple-700 hover:w-12' />
             </a>
           </div>
@@ -66,7 +69,7 @@ const Location = () => {
 
         <div className='flex justify-center mt-10 md:w-1/2 w-full m-3 shadow-lg'>
           <iframe
-            src='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6958.765296474075!2d31.20112729999999!3d29.30044930000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1679590983898!5m2!1sar!2seg'
+            src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3622.7626770538786!2d46.687056415000825!3d24.76932488409696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ2JzA5LjYiTiA0NsKwNDEnMjEuMyJF!5e0!3m2!1sen!2seg!4v1681541413132!5m2!1sen!2seg'
             width='1500'
             height='600'
             className='p-0'

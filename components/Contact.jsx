@@ -115,7 +115,9 @@ const Contact = () => {
         <a href='#' className='cursor-pointer'>
           <RiFacebookCircleFill className='h-9 w-8 fill-blue-700 hover:w-12' />
         </a>
-        <a href='#' className='cursor-pointer'>
+        <a
+          href='https://www.instagram.com/ramzyamgd/'
+          className='cursor-pointer'>
           <RiInstagramFill className='h-9 w-8 fill-purple-700 hover:w-12' />
         </a>
       </div>
