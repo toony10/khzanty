@@ -219,7 +219,6 @@ export const Wardrobes = [
     details: "تفاصيل المنتج",
     code: "#122",
   },
-  ,
   {
     id: 23,
     name: "خزانه",
@@ -230,7 +229,6 @@ export const Wardrobes = [
     details: "تفاصيل المنتج",
     code: "#123",
   },
-  ,
   {
     id: 24,
     name: "خزانه",
@@ -241,7 +239,6 @@ export const Wardrobes = [
     details: "تفاصيل المنتج",
     code: "#124",
   },
-  ,
   {
     id: 25,
     name: "خزانه",
@@ -252,7 +249,6 @@ export const Wardrobes = [
     details: "تفاصيل المنتج",
     code: "#125",
   },
-  ,
   {
     id: 26,
     name: "خزانه",
@@ -263,7 +259,6 @@ export const Wardrobes = [
     details: "تفاصيل المنتج",
     code: "#126",
   },
-  ,
   {
     id: 27,
     name: "خزانه",
@@ -274,7 +269,6 @@ export const Wardrobes = [
     details: "تفاصيل المنتج",
     code: "#127",
   },
-  ,
   {
     id: 28,
     name: "خزانه",
@@ -285,7 +279,6 @@ export const Wardrobes = [
     details: "تفاصيل المنتج",
     code: "#128",
   },
-  ,
   {
     id: 29,
     name: "خزانه",
@@ -296,7 +289,6 @@ export const Wardrobes = [
     details: "تفاصيل المنتج",
     code: "#129",
   },
-  ,
   {
     id: 30,
     name: "خزانه",

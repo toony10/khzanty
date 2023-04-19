@@ -219,7 +219,6 @@ export const Seats = [
     details: "تفاصيل المنتج",
     code: "#182",
   },
-  ,
   {
     id: 83,
     name: "مقعد",
@@ -230,7 +229,6 @@ export const Seats = [
     details: "تفاصيل المنتج",
     code: "#183",
   },
-  ,
   {
     id: 84,
     name: "مقعد",
@@ -241,7 +239,6 @@ export const Seats = [
     details: "تفاصيل المنتج",
     code: "#184",
   },
-  ,
   {
     id: 85,
     name: "مقعد",
@@ -252,7 +249,6 @@ export const Seats = [
     details: "تفاصيل المنتج",
     code: "#185",
   },
-  ,
   {
     id: 86,
     name: "مقعد",
@@ -263,7 +259,6 @@ export const Seats = [
     details: "تفاصيل المنتج",
     code: "#186",
   },
-  ,
   {
     id: 87,
     name: "مقعد",
@@ -274,7 +269,6 @@ export const Seats = [
     details: "تفاصيل المنتج",
     code: "#187",
   },
-  ,
   {
     id: 88,
     name: "مقعد",
@@ -285,7 +279,6 @@ export const Seats = [
     details: "تفاصيل المنتج",
     code: "#188",
   },
-  ,
   {
     id: 89,
     name: "مقعد",
@@ -296,7 +289,6 @@ export const Seats = [
     details: "تفاصيل المنتج",
     code: "#189",
   },
-  ,
   {
     id: 90,
     name: "مقعد",

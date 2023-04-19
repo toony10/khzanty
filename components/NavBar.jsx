@@ -13,6 +13,7 @@ const navigation = [
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [bgColor, setBgColor] = useState("transparent");
+  const [logoBig, setLogoBig] = useState(true);
   const [textColor, setTextColor] = useState("white");
   const [shadow, setShadow] = useState("none");
   const handleNav = () => {
@@ -26,10 +27,12 @@ const NavBar = () => {
         setShadow(
           "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px"
         );
+        setLogoBig(false);
       } else {
         setBgColor("transparent");
         setTextColor("#ffffff");
         setShadow("none");
+        setLogoBig(true);
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -90,6 +93,9 @@ const NavBar = () => {
             height={0}
             sizes='100vw'
             alt='logo'
+            className={`ease-in duration-200 w-[4rem] ${
+              logoBig ? "lg:w-40" : "lg:w-20"
+            }`}
           />
         </Link>
       </div>

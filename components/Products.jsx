@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import PopUp from "./PopUp";
+import ImgPopUp from "./ImgPopUp";
+import DetailsPopUp from "./DetailsPopUp";
 // Products
 import { AllProducts } from "../data/AllProducts";
 import { Beds } from "../data/Beds";
@@ -20,28 +21,42 @@ import { ImZoomIn } from "react-icons/im";
 const categories = [
   { id: 1, name: "طاولات", icon: <MdOutlineTableBar />, data: Tables },
   { id: 2, name: "مقاعد", icon: <FaCouch />, data: Seats },
-  { id: 3, name: "خزانات", icon: <GiArabicDoor />, data: Wardrobes },
   { id: 4, name: "سراير", icon: <BiBed />, data: Beds },
+  { id: 3, name: "خزانات", icon: <GiArabicDoor />, data: Wardrobes },
 ];
 
 const Products = () => {
   const [products, setProducts] = useState(AllProducts);
 
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  // img popup
+  const [isImgPopupOpen, setIsImgPopupOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const togglePopup = (image) => {
-    setIsPopupOpen(!isPopupOpen);
+  const toggleImgPopup = (image) => {
+    setIsImgPopupOpen(!isImgPopupOpen);
     setSelectedImage(image);
   };
-  const closePopUp = () => {
-    setIsPopupOpen(false);
-  };
-  const shuffle = (arr) => {
-    arr.sort(() => Math.random() - 0.5);
+  const closeImgPopUp = () => {
+    setIsImgPopupOpen(false);
   };
 
-  // shuffle(products);
+  // details popup
+  const [isDetailsPopupOpen, setIsDetailsPopupOpen] = useState(false);
+
+  const toggleDetailsPopup = () => {
+    setIsDetailsPopupOpen(!isDetailsPopupOpen);
+  };
+  const closeDetailsPopUp = () => {
+    setIsDetailsPopupOpen(false);
+  };
+
+  // const shuffle = (arr) => {
+  //   arr.sort(() => Math.random() - 0.5);
+  // };
+
+  useEffect(() => {
+    products.sort(() => Math.random() - 0.5);
+  });
 
   return (
     <section className='bg-white' id='products'>
@@ -68,9 +83,7 @@ const Products = () => {
           </button>
         ))}
       </div>
-      <div
-        suppressHydrationWarning
-        className='mx-auto max-w-2xl py-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8'>
+      <div className='mx-auto max-w-2xl py-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8'>
         <div
           id='all-products'
           className='mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8'>
@@ -83,10 +96,11 @@ const Products = () => {
                   <ImZoomIn
                     size={30}
                     color='white'
-                    onClick={() => togglePopup(product.imageSrc)}
+                    onClick={() => toggleImgPopup(product.imageSrc)}
                   />
                 </div>
                 <Image
+                  suppressHydrationWarning
                   width={0}
                   height={0}
                   sizes='(min-width: 640px) 50vw,
@@ -100,14 +114,19 @@ const Products = () => {
               <div className='mt-4 flex justify-between flex-row-reverse'>
                 <div>
                   <h3 className='text-sm text-gray-700 text-right'>
-                    <a href={product.href}>{product.name}</a>
+                    <a href={product.href} suppressHydrationWarning>
+                      {product.name}
+                    </a>
                   </h3>
                   <p className='mt-1 text-sm text-gray-500'>
                     {product.details}
                   </p>
                 </div>
                 <p className='text-sm font-normal text-gray-900'>
-                  كود: <span className='font-bold'>{product.code}</span>
+                  كود:{" "}
+                  <span className='font-bold' suppressHydrationWarning>
+                    {product.code}
+                  </span>
                 </p>
               </div>
               <div className='flex justify-between mt-4'>
@@ -115,7 +134,9 @@ const Products = () => {
                   <div className='m-auto'>
                     <BiDetail />
                   </div>
-                  <div className='mx-2'>تفاصيل</div>
+                  <div className='mx-2' onClick={toggleDetailsPopup}>
+                    تفاصيل
+                  </div>
                 </button>
                 <a href='tel:+201223657955'>
                   <button
@@ -130,9 +151,10 @@ const Products = () => {
               </div>
             </div>
           ))}
-          {isPopupOpen && (
-            <PopUp imageSrc={selectedImage} onClose={closePopUp} />
+          {isImgPopupOpen && (
+            <ImgPopUp imageSrc={selectedImage} onClose={closeImgPopUp} />
           )}
+          {isDetailsPopupOpen && <DetailsPopUp onClose={closeDetailsPopUp} />}
         </div>
       </div>
     </section>
