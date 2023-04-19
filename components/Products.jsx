@@ -54,9 +54,9 @@ const Products = () => {
   //   arr.sort(() => Math.random() - 0.5);
   // };
 
-  useEffect(() => {
-    products.sort(() => Math.random() - 0.5);
-  });
+  // useEffect(() => {
+  //   products.sort(() => Math.random() - 0.5);
+  // });
 
   return (
     <section className='bg-white' id='products'>
