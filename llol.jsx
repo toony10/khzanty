@@ -1,8 +1,26 @@
-<iframe
-  src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3622.7626770538786!2d46.687056415000825!3d24.76932488409696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ2JzA5LjYiTiA0NsKwNDEnMjEuMyJF!5e0!3m2!1sen!2seg!4v1681541413132!5m2!1sen!2seg'
-  width='600'
-  height='450'
-  style='border:0;'
-  allowfullscreen=''
-  loading='lazy'
-  referrerpolicy='no-referrer-when-downgrade'></iframe>;
+<div className='max-w-sm rounded overflow-hidden shadow-lg'>
+  <img
+    className='w-full'
+    src='/img/card-top.jpg'
+    alt='Sunset in the mountains'
+  />
+  <div className='px-6 py-4'>
+    <div className='font-bold text-xl mb-2'>The Coldest Sunset</div>
+    <p className='text-gray-700 text-base'>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
+      quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
+      nihil.
+    </p>
+  </div>
+  <div className='px-6 pt-4 pb-2'>
+    <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+      #photography
+    </span>
+    <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+      #travel
+    </span>
+    <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+      #winter
+    </span>
+  </div>
+</div>;

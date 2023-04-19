@@ -8,24 +8,30 @@ const DetailsPopUp = ({ imageSrc, onClose }) => {
       <div className=' bg-opacity-70  absolute z-10 right-5 top-5 w-9 p-1 rounded-md color h-9 cursor-pointer'>
         <GrClose size={30} color='red' onClick={onClose} />
       </div>
-      <div className=' rounded-lg transform transition-all'>
-        <div class='block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
-          <h5 class='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-            تفاصيل
-          </h5>
-          <p class='font-normal text-gray-700 dark:text-gray-400'>
-            <a
-              href='#'
-              class='block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
-              <h5 class='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-                تفاصيل{" "}
-              </h5>
-              <p class='font-normal text-gray-700 dark:text-gray-400'>
-                تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل تفاصيل
-                تفاصيل تفاصيل
-              </p>
-            </a>
+      <div className='max-w-sm rounded overflow-hidden shadow-lg bg-white'>
+        <img
+          className='w-full'
+          src='https://www.cairo24.com/UploadCache/libfiles/80/1/600x338o/812.jpg'
+          alt='Sunset in the mountains'
+        />
+        <div className='px-6 py-4'>
+          <div className='font-bold text-xl mb-2'>The Coldest Sunset</div>
+          <p className='text-gray-700 text-base'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            exercitationem praesentium nihil.
           </p>
+        </div>
+        <div className='px-6 pt-4 pb-2'>
+          <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+            #photography
+          </span>
+          <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+            #travel
+          </span>
+          <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+            #winter
+          </span>
         </div>
       </div>
     </div>
