@@ -28,7 +28,7 @@ const categories = [
 const Products = () => {
   const [products, setProducts] = useState(AllProducts);
 
-  // img popup
+  // image popup
   const [isImgPopupOpen, setIsImgPopupOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -44,12 +44,14 @@ const Products = () => {
   const [isDetailsPopupOpen, setIsDetailsPopupOpen] = useState(false);
   const [selectedName, setSelectedName] = useState();
   const [selectedDetails, setSelectedDetails] = useState();
+  const [selectedCode, setSelectedCode] = useState();
 
-  const toggleDetailsPopup = (image, name, details) => {
+  const toggleDetailsPopup = (image, name, details, code) => {
     setIsDetailsPopupOpen(!isDetailsPopupOpen);
     setSelectedImage(image);
     setSelectedName(name);
     setSelectedDetails(details);
+    setSelectedCode(code);
   };
   const closeDetailsPopUp = () => {
     setIsDetailsPopupOpen(false);
@@ -140,7 +142,8 @@ const Products = () => {
                     toggleDetailsPopup(
                       product.imageSrc,
                       product.name,
-                      product.details
+                      product.details,
+                      product.code
                     )
                   }
                   class='flex flex-row-reverse justify-between bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md'>
@@ -170,6 +173,7 @@ const Products = () => {
               imageSrc={selectedImage}
               name={selectedName}
               details={selectedDetails}
+              code={selectedCode}
               onClose={closeDetailsPopUp}
             />
           )}
