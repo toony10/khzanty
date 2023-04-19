@@ -3,6 +3,8 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
+import Logo from "../public/logo.png";
+
 const navigation = [
   { name: "من نحن؟", href: "#about-us", id: 1 },
   { name: "منتجاتنا", href: "#products", id: 2 },
@@ -88,7 +90,7 @@ const NavBar = () => {
         </div>
         <Link href='/'>
           <Image
-            src='/Logo.png'
+            src={Logo}
             width={100}
             height={0}
             sizes='100vw'
