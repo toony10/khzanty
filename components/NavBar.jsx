@@ -95,8 +95,8 @@ const NavBar = () => {
             height={0}
             sizes='100vw'
             alt='logo'
-            className={`ease-in duration-200 w-[4rem] ${
-              logoBig ? "lg:w-40" : "lg:w-20"
+            className={`ease-in duration-150 w-[4rem] ${
+              logoBig ? "lg:w-40" : "lg:w-15"
             }`}
           />
         </Link>

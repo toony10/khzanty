@@ -42,9 +42,14 @@ const Products = () => {
 
   // details popup
   const [isDetailsPopupOpen, setIsDetailsPopupOpen] = useState(false);
+  const [selectedName, setSelectedName] = useState();
+  const [selectedDetails, setSelectedDetails] = useState();
 
-  const toggleDetailsPopup = () => {
+  const toggleDetailsPopup = (image, name, details) => {
     setIsDetailsPopupOpen(!isDetailsPopupOpen);
+    setSelectedImage(image);
+    setSelectedName(name);
+    setSelectedDetails(details);
   };
   const closeDetailsPopUp = () => {
     setIsDetailsPopupOpen(false);
@@ -130,13 +135,19 @@ const Products = () => {
                 </p>
               </div>
               <div className='flex justify-between mt-4'>
-                <button class='flex flex-row-reverse justify-between bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md'>
+                <button
+                  onClick={() =>
+                    toggleDetailsPopup(
+                      product.imageSrc,
+                      product.name,
+                      product.details
+                    )
+                  }
+                  class='flex flex-row-reverse justify-between bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md'>
                   <div className='m-auto'>
                     <BiDetail />
                   </div>
-                  <div className='mx-2' onClick={toggleDetailsPopup}>
-                    تفاصيل
-                  </div>
+                  <div className='mx-2'>تفاصيل</div>
                 </button>
                 <a href='tel:+9660565703612'>
                   <button
@@ -154,7 +165,14 @@ const Products = () => {
           {isImgPopupOpen && (
             <ImgPopUp imageSrc={selectedImage} onClose={closeImgPopUp} />
           )}
-          {isDetailsPopupOpen && <DetailsPopUp onClose={closeDetailsPopUp} />}
+          {isDetailsPopupOpen && (
+            <DetailsPopUp
+              imageSrc={selectedImage}
+              name={selectedName}
+              details={selectedDetails}
+              onClose={closeDetailsPopUp}
+            />
+          )}
         </div>
       </div>
     </section>
