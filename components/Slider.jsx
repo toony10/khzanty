@@ -9,7 +9,11 @@ import Home3 from "/public/imgs/slider/Home3.png";
 // Slider
 import { Carousel } from "flowbite-react";
 
-const Images = [{ imgSrc: Home1 }, { imgSrc: Home2 }, { imgSrc: Home3 }];
+const Images = [
+  { imgSrc: Home1, id: 1 },
+  { imgSrc: Home2, id: 2 },
+  { imgSrc: Home3, id: 3 },
+];
 
 const Slider = () => {
   return (
@@ -41,6 +45,7 @@ const Slider = () => {
         leftControl=' '>
         {Images.map((img) => (
           <Image
+            id={img.id}
             width={0}
             height={0}
             sizes='100vw'
