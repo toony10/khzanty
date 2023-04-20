@@ -26,7 +26,10 @@ const Slider = () => {
           <p className='lg:mt-6 text-sm lg:text-2xl leading-8 text-gray-200'>
             نقدم خدمات التصنيع والصيانة لجميع أنواع الأثاث الخشبي
           </p>
-
+          <p className='lg:mt-6 text-sm lg:text-2xl leading-8 text-gray-200'>
+            نحن نهتم بتوفير منتجات عالية الجوده وخدمات احترافيه لتلبية احتياجات
+            عملائنا
+          </p>
           <div className='mt-3 lg:mt-20 flex justify-end gap-x-6'>
             <Link
               href='#products'
@@ -45,7 +48,6 @@ const Slider = () => {
         leftControl=' '>
         {Images.map((img) => (
           <Image
-            key={img.id}
             width={0}
             height={0}
             sizes='100vw'
