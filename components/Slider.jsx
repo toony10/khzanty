@@ -45,7 +45,7 @@ const Slider = () => {
         leftControl=' '>
         {Images.map((img) => (
           <Image
-            id={img.id}
+            key={img.id}
             width={0}
             height={0}
             sizes='100vw'
