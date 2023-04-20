@@ -1,12 +1,10 @@
+// social media
+import Social from "./Social";
+
 // icons
 import { ImLocation2 } from "react-icons/im";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import {
-  RiWhatsappFill,
-  RiFacebookCircleFill,
-  RiInstagramFill,
-} from "react-icons/ri";
 
 const contactInfo = [
   {
@@ -52,19 +50,7 @@ const Location = () => {
               </div>
             </a>
           ))}
-          <div className='flex justify-center my-7 space-x-8'>
-            <a href='#' className='cursor-pointer'>
-              <RiWhatsappFill className='h-9 w-8 fill-green-700 hover:w-12' />
-            </a>
-            <a href='#' className='cursor-pointer'>
-              <RiFacebookCircleFill className='h-9 w-8 fill-blue-700 hover:w-12' />
-            </a>
-            <a
-              href='https://www.instagram.com/ramzyamgd/'
-              className='cursor-pointer'>
-              <RiInstagramFill className='h-9 w-8 fill-purple-700 hover:w-12' />
-            </a>
-          </div>
+          <Social />
         </div>
 
         <div className='flex justify-center mt-10 md:w-1/2 w-full m-3 shadow-lg'>

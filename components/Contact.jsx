@@ -1,10 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import {
-  RiWhatsappFill,
-  RiFacebookCircleFill,
-  RiInstagramFill,
-} from "react-icons/ri";
+import Social from "./Social";
 const Contact = () => {
   const form = useRef();
 
@@ -108,19 +104,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <div className='flex justify-center mb-7 space-x-8'>
-        <a href='#' className='cursor-pointer'>
-          <RiWhatsappFill className='h-9 w-8 fill-green-700 hover:w-12' />
-        </a>
-        <a href='#' className='cursor-pointer'>
-          <RiFacebookCircleFill className='h-9 w-8 fill-blue-700 hover:w-12' />
-        </a>
-        <a
-          href='https://www.instagram.com/ramzyamgd/'
-          className='cursor-pointer'>
-          <RiInstagramFill className='h-9 w-8 fill-purple-700 hover:w-12' />
-        </a>
-      </div>
+      <Social />
     </section>
   );
 };

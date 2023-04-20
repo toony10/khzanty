@@ -6,10 +6,10 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../public/logo.png";
 
 const navigation = [
-  { name: "من نحن؟", href: "#about-us", id: 1 },
-  { name: "منتجاتنا", href: "#products", id: 2 },
-  { name: "موقعنا", href: "#location", id: 3 },
-  { name: "تواصل معنا", href: "#contact", id: 4 },
+  { name: "تواصل معنا", href: "#contact", id: 1 },
+  { name: "موقعنا", href: "#location", id: 2 },
+  { name: "منتجاتنا", href: "#products", id: 3 },
+  { name: "من نحن؟", href: "#about-us", id: 4 },
 ];
 
 const NavBar = () => {
@@ -57,7 +57,7 @@ const NavBar = () => {
           ))}
         </ul>
         {/*mobile Button*/}
-        <div onClick={handleNav} className='block sm:hidden z-10'>
+        <div onClick={handleNav} className='block sm:hidden z-10 h-full'>
           {nav ? (
             <AiOutlineClose size={20} color='black' />
           ) : (
@@ -75,9 +75,11 @@ const NavBar = () => {
               ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300"
               : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300"
           }>
-          <ul>
+          <ul className='flex flex-col-reverse'>
             {navigation.map((item) => (
-              <li className='p-4 text-4xl hover:text-gray-500' key={item.id}>
+              <li
+                className='p-4 text-4xl hover:text-gray-500 hover:bg-gray-200'
+                key={item.id}>
                 <Link
                   onClick={handleNav}
                   href={item.href}
@@ -88,7 +90,7 @@ const NavBar = () => {
             ))}
           </ul>
         </div>
-        <Link href='/'>
+        <Link href='/' className='w'>
           <Image
             src={Logo}
             width={100}
@@ -96,7 +98,7 @@ const NavBar = () => {
             sizes='100vw'
             alt='logo'
             className={`ease-in duration-150 w-[4rem] ${
-              logoBig ? "lg:w-40" : "lg:w-15"
+              logoBig ? "lg:w-[7rem]" : "lg:w-[4rem]"
             }`}
           />
         </Link>

@@ -57,13 +57,16 @@ const Products = () => {
     setIsDetailsPopupOpen(false);
   };
 
+  // data shuffle
   // const shuffle = (arr) => {
   //   arr.sort(() => Math.random() - 0.5);
   // };
 
   // useEffect(() => {
-  //   products.sort(() => Math.random() - 0.5);
-  // });
+  //   const productClone = products.slice();
+  //   shuffle(productClone);
+  //   setProducts(productClone);
+  // }, []);
 
   return (
     <section className='bg-white' id='products'>
@@ -78,7 +81,9 @@ const Products = () => {
           <button
             key={category.id}
             onClick={() => {
-              setProducts(category.data);
+              const productClone = category.data.slice();
+              // shuffle(productClone);
+              setProducts(productClone);
               window.scrollTo({
                 top: 1600,
                 behavior: "smooth",

@@ -10,7 +10,7 @@ import Location from "../components/Location";
 import Contact from "../components/Contact";
 export default function Home() {
   return (
-    <div className='bg-white '>
+    <div className='bg-white'>
       <Head>
         <title>خزانتي</title>
       </Head>
