@@ -85,7 +85,7 @@ const Contact = () => {
           </button>
           <div
             id='alert'
-            class='m-auto mb-5 ease-in duration-200 hidden flex justify-center text-green-600 bg-green-400 w-1/2 items-center rounded-lg bg-success-100 px-6 py-5 text-base text-success-700 '
+            class='m-auto mb-5 ease-in duration-200 hidden justify-center text-green-600 bg-green-400 w-1/2 items-center rounded-lg bg-success-100 px-6 py-5 text-base text-success-700 '
             role='alert'>
             <span class='mr-2'>
               <svg

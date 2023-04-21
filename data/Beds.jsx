@@ -6,7 +6,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/1.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 150 سم  مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#131",
   },
   {
@@ -16,7 +17,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/2.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#132",
   },
   {
@@ -26,7 +28,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/3.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوعة بأجود الخامات الخشبية من الخشب المضغوط ، معالج ضد الرطوبة والبكتيريا مع قاعدة داخلية مع خلفية من الخشب ",
     code: "#133",
   },
   {
@@ -36,7 +39,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/4.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 150 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#134",
   },
   {
@@ -46,7 +50,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/5.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش. ومساحة للخزين ",
     code: "#135",
   },
   {
@@ -56,7 +61,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/6.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوعة بأجود الخامات الخشبية من الخشب المضغوط ، معالج ضد الرطوبة والبكتيريا مع قاعدة داخلية . مع خلفية من الخشب ",
     code: "#136",
   },
   {
@@ -66,7 +72,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/7.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل ",
     code: "#137",
   },
   {
@@ -76,7 +83,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/8.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوعة بأجود الخامات الخشبية من الخشب المضغوط ، معالج ضد الرطوبة والبكتيريا مع قاعدة داخلية . مع خلفية من الخشب ",
     code: "#138",
   },
   {
@@ -86,7 +94,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/9.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#139",
   },
   {
@@ -96,7 +105,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/10.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#140",
   },
   {
@@ -106,7 +116,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/11.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 150 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#141",
   },
   {
@@ -116,7 +127,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/12.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوعة بأجود الخامات الخشبية من الخشب المضغوط ، معالج ضد الرطوبة والبكتيريا مع قاعدة داخلية . مع خلفية من الخشب ",
     code: "#142",
   },
   {
@@ -126,7 +138,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/13.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 150 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#143",
   },
   {
@@ -136,7 +149,7 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/14.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details: "سرير مفرد عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش ",
     code: "#144",
   },
   {
@@ -146,7 +159,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/15.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوعة بأجود الخامات الخشبية من الخشب المضغوط ، معالج ضد الرطوبة والبكتيريا مع  مع طاولات جانبية . مع خلفية من الخشب ",
     code: "#145",
   },
   {
@@ -156,7 +170,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/16.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#146",
   },
   {
@@ -166,7 +181,7 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/17.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details: "سرير اطفال طابقين عرض 120 سم بأجود الخامات الخشبية ",
     code: "#147",
   },
   {
@@ -176,7 +191,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/18.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#148",
   },
   {
@@ -186,7 +202,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/19.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 150 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#149",
   },
   {
@@ -196,7 +213,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/20.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوعة بأجود الخامات الخشبية من الخشب المضغوط ، معالج ضد الرطوبة والبكتيريا مع  مع طاولات جانبية . مع خلفية من الخشب ",
     code: "#150",
   },
   {
@@ -206,7 +224,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/21.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#151",
   },
   {
@@ -216,7 +235,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/22.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 150 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#152",
   },
   {
@@ -226,7 +246,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/23.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#153",
   },
   {
@@ -236,7 +257,7 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/24.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details: "سرير اطفال طابقين عرض 120 سم بأجود الخامات الخشبية ",
     code: "#154",
   },
   {
@@ -246,7 +267,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/25.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوعة بأجود الخامات الخشبية من الخشب المضغوط ، معالج ضد الرطوبة والبكتيريا مع  مع طاولات جانبية . مع خلفية من الخشب ",
     code: "#155",
   },
   {
@@ -256,7 +278,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/26.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 150 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#156",
   },
   {
@@ -266,7 +289,7 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/27.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details: "سرير اطفال 120سم بمكتبة خلفية بأجود الخامات الخشبية ",
     code: "#157",
   },
   {
@@ -276,7 +299,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/28.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "سرير مفرد عرض 200 سم مصنوع بأجود الخامات الخشبية المكسو بالقماش، مع قاعدة داخلية مصنوعة من الخشب وخلفية من القماش المخمل",
     code: "#158",
   },
   {
@@ -286,7 +310,8 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/29.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details:
+      "قاعدة سرير عرض 200 سم مصنوعة بأجود الخامات الخشبية من الخشب المضغوط ، معالج ضد الرطوبة والبكتيريا مع  مع طاولات جانبية . مع خلفية من الخشب ",
     code: "#159",
   },
   {
@@ -296,7 +321,7 @@ export const Beds = [
     imageSrc: "/imgs/products/Beds/30.jpg",
     imageAlt: "سرير",
     price: "$35",
-    details: "تفاصيل المنتج",
+    details: "سرير اطفال متحرك عرض 70 سم بأجود الخامات الخشبية ",
     code: "#160",
   },
 ];

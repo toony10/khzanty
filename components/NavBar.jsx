@@ -77,9 +77,7 @@ const NavBar = () => {
           }>
           <ul className='flex flex-col-reverse'>
             {navigation.map((item) => (
-              <li
-                className='p-4 text-4xl hover:text-gray-500 hover:bg-gray-200'
-                key={item.id}>
+              <li className='p-4 text-4xl hover:text-gray-500' key={item.id}>
                 <Link
                   onClick={handleNav}
                   href={item.href}

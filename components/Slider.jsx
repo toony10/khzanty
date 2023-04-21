@@ -17,7 +17,7 @@ const Images = [
 
 const Slider = () => {
   return (
-    <div className='h-[17.75rem] sm:h-[30rem] xl:h-[50rem] relative w-full flex justify-center'>
+    <div className='h-[17.75rem] sm:h-[30rem] xl:h-[50rem] relative w-full flex justify-center '>
       <div className='absolute z-10 inset-0 flex justify-center items-center bg-black bg-opacity-50'>
         <div className='text-right w-full mt-16 lg:mt-9 mr-5'>
           <h1 className='text-4xl text-white sm:text-6xl arabic-font mt-1'>

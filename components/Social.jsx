@@ -12,14 +12,18 @@ const Social = () => {
         : تابعنا
       </h1>
       <div className='flex justify-center mb-7 space-x-8'>
-        <a href='#' className='cursor-pointer'>
+        <a
+          href='https://wa.link/4i5lfl'
+          target='blank'
+          className='cursor-pointer'>
           <RiWhatsappFill className='h-9 w-8 fill-green-700 hover:w-12 ease-in duration-150' />
         </a>
-        <a href='#' className='cursor-pointer'>
+        <a href='#' target='blank' className='cursor-pointer'>
           <RiFacebookCircleFill className='h-9 w-8 fill-blue-700 hover:w-12 ease-in duration-150' />
         </a>
         <a
           href='https://www.instagram.com/ramzyamgd/'
+          target='blank'
           className='cursor-pointer'>
           <RiInstagramFill className='h-9 w-8 fill-purple-700 hover:w-12 ease-in duration-150' />
         </a>

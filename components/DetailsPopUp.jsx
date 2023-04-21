@@ -5,7 +5,7 @@ const DetailsPopUp = ({ imageSrc, name, details, code, onClose }) => {
   return (
     <div
       onClick={onClose}
-      className='fixed bg-gray-900 bg-opacity-20 flex z-10 inset-0 overflow-y-auto items-center justify-center    filter'>
+      className='ease-in duration-200 fixed bg-gray-900 bg-opacity-20 flex z-10 inset-0 overflow-y-auto items-center justify-center    filter'>
       <div className=' bg-opacity-70  absolute z-10 right-5 top-5 w-9 p-1 rounded-md color h-9 cursor-pointer'>
         <GrClose size={30} color='white' onClick={onClose} />
       </div>
