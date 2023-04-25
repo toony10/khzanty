@@ -18,7 +18,10 @@ const Social = () => {
           className='cursor-pointer'>
           <RiWhatsappFill className='h-9 w-8 fill-green-700 hover:w-12 ease-in duration-150' />
         </a>
-        <a href='#' target='blank' className='cursor-pointer'>
+        <a
+          href='https://www.facebook.com/profile.php?id=100092286127335'
+          target='blank'
+          className='cursor-pointer'>
           <RiFacebookCircleFill className='h-9 w-8 fill-blue-700 hover:w-12 ease-in duration-150' />
         </a>
         <a

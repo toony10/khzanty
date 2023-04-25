@@ -41,7 +41,6 @@ const Slider = () => {
       </div>
 
       <Carousel
-        slide={false}
         className='h-full'
         slideInterval={1000}
         indicators={false}
