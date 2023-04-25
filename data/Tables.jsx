@@ -2,7 +2,7 @@ export const Tables = [
   {
     id: 91,
     name: "طاولة خشبية بسيطة",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/1.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -12,7 +12,7 @@ export const Tables = [
   {
     id: 92,
     name: "طاولة خشب مستديرة مع كراسي خشبية ",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/2.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -23,7 +23,7 @@ export const Tables = [
   {
     id: 93,
     name: "طاولة خشب مربعة مع كراسي خشبية ",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/3.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -34,7 +34,7 @@ export const Tables = [
   {
     id: 94,
     name: "طاولة خشب بتصميم عصري",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/4.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -44,7 +44,7 @@ export const Tables = [
   {
     id: 95,
     name: "طاولة خشب بتصميم كلاسيكي",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/5.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -54,7 +54,7 @@ export const Tables = [
   {
     id: 96,
     name: "طاولة خشب بتصميم ريفي",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/6.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -65,7 +65,7 @@ export const Tables = [
   {
     id: 97,
     name: "طاولة خشب مستطيلة",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/7.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -76,7 +76,7 @@ export const Tables = [
   {
     id: 98,
     name: "طاولة خشب صغيرة",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/8.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -86,7 +86,7 @@ export const Tables = [
   {
     id: 99,
     name: "طاولة خشب مع صندوق تخزين",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/9.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -97,7 +97,7 @@ export const Tables = [
   {
     id: 100,
     name: "طاولة خشب كبيرة",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/10.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -108,7 +108,7 @@ export const Tables = [
   {
     id: 101,
     name: "طاولة خشب مصفحة بالزجاج مع كراسي خشبية ",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/11.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -119,7 +119,7 @@ export const Tables = [
   {
     id: 102,
     name: "طاولة خشب بتصميم بسيط و عصري مع كراسي خشبية  مغطاة بالجلد",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/12.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -130,7 +130,7 @@ export const Tables = [
   {
     id: 103,
     name: "طاولة خشب بتصميم مودرن ",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/13.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -140,7 +140,7 @@ export const Tables = [
   {
     id: 104,
     name: "طاولة خشب بتصميم مودرن صغيرة ",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/14.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -151,7 +151,7 @@ export const Tables = [
   {
     id: 105,
     name: "طاولة خشب بتصميم أنيق",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/15.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -161,7 +161,7 @@ export const Tables = [
   {
     id: 106,
     name: "طاولة خشبية بتصميم فريد",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/16.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -171,7 +171,7 @@ export const Tables = [
   {
     id: 107,
     name: "طاولة خشب بتصميم مستطيل بسيط",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/17.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -182,7 +182,7 @@ export const Tables = [
   {
     id: 108,
     name: "طاولة خشب بأرجل منحنية",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/18.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -193,7 +193,7 @@ export const Tables = [
   {
     id: 109,
     name: "طاولة خشب مستطيل مع كراسي خشبية",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/19.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -204,7 +204,7 @@ export const Tables = [
   {
     id: 110,
     name: "طاولة خشب بتصميم حديث ",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/20.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -215,7 +215,7 @@ export const Tables = [
   {
     id: 111,
     name: "طاولة سفرة مستطيلة",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/21.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -226,7 +226,7 @@ export const Tables = [
   {
     id: 112,
     name: "طاولة خشب بتصميم جيومتري",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/22.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -237,7 +237,7 @@ export const Tables = [
   {
     id: 113,
     name: "طاولة خشب بتفاصيل من الرخام",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/23.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -248,7 +248,7 @@ export const Tables = [
   {
     id: 114,
     name: "طاولة خشب بتصميم عتيق",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/24.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -259,7 +259,7 @@ export const Tables = [
   {
     id: 115,
     name: "طاولة سفرة مستطيلة كلاسيك ",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/25.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -270,7 +270,7 @@ export const Tables = [
   {
     id: 116,
     name: "طاولة خشب بتفاصيل من الخيزران",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/26.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -281,7 +281,7 @@ export const Tables = [
   {
     id: 117,
     name: "طاولة  سفرة مربعة كلاسيك",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/27.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -292,7 +292,7 @@ export const Tables = [
   {
     id: 118,
     name: "طاولة سفرة مستطيلة كلاسيك ",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/28.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -303,7 +303,7 @@ export const Tables = [
   {
     id: 119,
     name: "طاولة قهوة خشبية",
-    href: "#",
+
     imageSrc: "/imgs/products/Tables/29.jpg",
     imageAlt: "طاوله",
     price: "$35",
@@ -314,7 +314,6 @@ export const Tables = [
   {
     id: 120,
     name: "طاولة خشب بأرجل خشبية",
-    href: "#",
     imageSrc: "/imgs/products/Tables/30.jpg",
     imageAlt: "طاوله",
     price: "$35",

@@ -2,7 +2,7 @@ export const Wardrobes = [
   {
     id: 1,
     name: "خزانة عصرية عرض 400 سم ",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/1.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -13,7 +13,7 @@ export const Wardrobes = [
   {
     id: 2,
     name: "خزانة عصرية عرض 350 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/2.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -24,7 +24,7 @@ export const Wardrobes = [
   {
     id: 3,
     name: "دريسنج روم صغيرة عصرية",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/3.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -35,7 +35,7 @@ export const Wardrobes = [
   {
     id: 4,
     name: "خزانة بأبواب سحب زجاجية عرض 250سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/4.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -46,7 +46,7 @@ export const Wardrobes = [
   {
     id: 5,
     name: "دريسنج روم مستقيمة عرض 600 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/5.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -57,7 +57,7 @@ export const Wardrobes = [
   {
     id: 6,
     name: "خزانة زاوية بأبواب مفصلية عرض 200سم و 150سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/6.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -68,7 +68,7 @@ export const Wardrobes = [
   {
     id: 7,
     name: "خزانة زاوية بأبواب سحب 190 + 190سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/7.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -79,7 +79,7 @@ export const Wardrobes = [
   {
     id: 8,
     name: "خزانة بأبواب سحب زجاجية عرض 400 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/8.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -90,7 +90,7 @@ export const Wardrobes = [
   {
     id: 9,
     name: "خزانة بأبواب سحب خشبية عرض 150سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/9.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -101,7 +101,7 @@ export const Wardrobes = [
   {
     id: 10,
     name: "خزانة بأبواب سحب خشبية عرض 500 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/10.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -112,7 +112,7 @@ export const Wardrobes = [
   {
     id: 11,
     name: "دريسنج روم صغيرة عصرية",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/11.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -123,7 +123,7 @@ export const Wardrobes = [
   {
     id: 12,
     name: "خزانة عصرية عرض 600 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/12.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -134,7 +134,7 @@ export const Wardrobes = [
   {
     id: 13,
     name: "خزانة بأبواب سحب خشبية عرض 400 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/13.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -145,7 +145,7 @@ export const Wardrobes = [
   {
     id: 14,
     name: "دريسنج روم كاملة",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/14.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -156,7 +156,7 @@ export const Wardrobes = [
   {
     id: 15,
     name: "خزانة بأبواب مفصلية خشبية عرض 400 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/15.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -167,7 +167,7 @@ export const Wardrobes = [
   {
     id: 16,
     name: "دريسنج روم كاملة",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/16.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -178,7 +178,7 @@ export const Wardrobes = [
   {
     id: 17,
     name: "دريسنج روم صغيرة عصرية",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/17.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -189,7 +189,7 @@ export const Wardrobes = [
   {
     id: 18,
     name: "دريسنج روم عصرية",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/18.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -200,7 +200,7 @@ export const Wardrobes = [
   {
     id: 19,
     name: "خزانة زاوية بأبواب سحب عرض 300سم و 250سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/19.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -211,7 +211,7 @@ export const Wardrobes = [
   {
     id: 20,
     name: "خزانة بأبواب سحب زجاجية عرض 400 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/20.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -222,7 +222,7 @@ export const Wardrobes = [
   {
     id: 21,
     name: "خزانة صغيرة بدون باب 100 سم ",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/21.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -233,7 +233,7 @@ export const Wardrobes = [
   {
     id: 22,
     name: "خزانة مقسمة لنصفين  بأبواب مفصلية خشبية عرض 250 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/22.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -244,7 +244,7 @@ export const Wardrobes = [
   {
     id: 23,
     name: "خزانة عصرية عرض 250 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/23.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -255,7 +255,7 @@ export const Wardrobes = [
   {
     id: 24,
     name: "دريسنج روم عصرية",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/24.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -266,7 +266,7 @@ export const Wardrobes = [
   {
     id: 25,
     name: "خزانة بأبواب مفصلية خشبية عرض 500 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/25.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -277,7 +277,7 @@ export const Wardrobes = [
   {
     id: 26,
     name: "دريسنج روم كاملة",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/26.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -288,7 +288,7 @@ export const Wardrobes = [
   {
     id: 27,
     name: "خزانة عصرية 300 سم ",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/27.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -299,7 +299,7 @@ export const Wardrobes = [
   {
     id: 28,
     name: "دريسنج روم صغيرة عصرية",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/28.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -310,7 +310,7 @@ export const Wardrobes = [
   {
     id: 29,
     name: "خزانة بأبواب مفصلية خشبية عرض 500 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/29.jpg",
     imageAlt: "خزانه",
     price: "$35",
@@ -321,7 +321,7 @@ export const Wardrobes = [
   {
     id: 30,
     name: "خزانة بأبواب مفصلية خشبية عرض 300 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Wardrobes/30.jpg",
     imageAlt: "خزانه",
     price: "$35",

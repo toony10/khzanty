@@ -2,7 +2,6 @@ export const Beds = [
   {
     id: 31,
     name: "سرير مفرد عرض 150سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/1.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -13,7 +12,6 @@ export const Beds = [
   {
     id: 32,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/2.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -24,7 +22,7 @@ export const Beds = [
   {
     id: 33,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Beds/3.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -35,7 +33,6 @@ export const Beds = [
   {
     id: 34,
     name: "سرير مفرد عرض 200سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/4.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -46,7 +43,6 @@ export const Beds = [
   {
     id: 35,
     name: "قاعدة سرير عرض 200سم  مع تخزين ",
-    href: "#",
     imageSrc: "/imgs/products/Beds/5.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -57,7 +53,6 @@ export const Beds = [
   {
     id: 36,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/6.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -68,7 +63,6 @@ export const Beds = [
   {
     id: 37,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/7.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -79,7 +73,6 @@ export const Beds = [
   {
     id: 38,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/8.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -90,7 +83,6 @@ export const Beds = [
   {
     id: 39,
     name: "سرير مفرد عرض 200سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/9.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -101,7 +93,6 @@ export const Beds = [
   {
     id: 40,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/10.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -112,7 +103,6 @@ export const Beds = [
   {
     id: 41,
     name: "سرير مفرد عرض 150سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/11.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -123,7 +113,6 @@ export const Beds = [
   {
     id: 42,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/12.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -134,7 +123,6 @@ export const Beds = [
   {
     id: 43,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/13.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -145,7 +133,6 @@ export const Beds = [
   {
     id: 44,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/14.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -155,7 +142,6 @@ export const Beds = [
   {
     id: 45,
     name: "قاعدة سرير مع طاولات جانبية عرض 200سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/15.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -166,7 +152,6 @@ export const Beds = [
   {
     id: 46,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/16.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -177,7 +162,6 @@ export const Beds = [
   {
     id: 47,
     name: "سريراطفال  طابقين عرض 120 سم ",
-    href: "#",
     imageSrc: "/imgs/products/Beds/17.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -187,7 +171,6 @@ export const Beds = [
   {
     id: 48,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/18.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -198,7 +181,6 @@ export const Beds = [
   {
     id: 49,
     name: "سرير مفرد عرض 150سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/19.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -209,7 +191,6 @@ export const Beds = [
   {
     id: 50,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/20.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -220,7 +201,6 @@ export const Beds = [
   {
     id: 51,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/21.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -231,7 +211,6 @@ export const Beds = [
   {
     id: 52,
     name: "سرير مفرد عرض 150سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/22.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -242,7 +221,6 @@ export const Beds = [
   {
     id: 53,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/23.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -253,7 +231,6 @@ export const Beds = [
   {
     id: 54,
     name: "سريراطفال طابقين عرض 120 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/24.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -263,7 +240,6 @@ export const Beds = [
   {
     id: 55,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/25.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -274,7 +250,7 @@ export const Beds = [
   {
     id: 56,
     name: "سرير مفرد عرض 150سم",
-    href: "#",
+
     imageSrc: "/imgs/products/Beds/26.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -285,7 +261,6 @@ export const Beds = [
   {
     id: 57,
     name: "سرير اطفال120سم  بمكتبة خلفية ",
-    href: "#",
     imageSrc: "/imgs/products/Beds/27.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -295,7 +270,6 @@ export const Beds = [
   {
     id: 58,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/28.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -306,7 +280,6 @@ export const Beds = [
   {
     id: 59,
     name: "قاعدة سرير عرض 200 سم",
-    href: "#",
     imageSrc: "/imgs/products/Beds/29.jpg",
     imageAlt: "سرير",
     price: "$35",
@@ -317,7 +290,6 @@ export const Beds = [
   {
     id: 60,
     name: "سرير اطفال عرض 70 سم متحرك ",
-    href: "#",
     imageSrc: "/imgs/products/Beds/30.jpg",
     imageAlt: "سرير",
     price: "$35",

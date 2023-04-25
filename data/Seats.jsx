@@ -2,7 +2,7 @@ export const Seats = [
   {
     id: 61,
     name: "طقم كنب موديل أيزى",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/1.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -12,7 +12,7 @@ export const Seats = [
   {
     id: 62,
     name: "طقم فلوريدا ",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/2.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -23,7 +23,7 @@ export const Seats = [
   {
     id: 63,
     name: "كنب 3 مقاعد موديل سول",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/3.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -34,7 +34,7 @@ export const Seats = [
   {
     id: 64,
     name: "كنبة ثلاثية",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/4.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -45,7 +45,7 @@ export const Seats = [
   {
     id: 65,
     name: "كنبة ثلاثة اشخاص توب ",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/5.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -56,7 +56,7 @@ export const Seats = [
   {
     id: 66,
     name: "طقم كنب موديل ايزى ",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/6.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -67,7 +67,7 @@ export const Seats = [
   {
     id: 67,
     name: "كنب شخصين موديل ادورد",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/7.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -78,7 +78,7 @@ export const Seats = [
   {
     id: 68,
     name: "كنبة ثلاثة اشخاص تورنتو",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/8.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -89,7 +89,7 @@ export const Seats = [
   {
     id: 69,
     name: "طقم كنب ثلاثة اشخاص تورنتو",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/9.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -100,7 +100,7 @@ export const Seats = [
   {
     id: 70,
     name: "طقم كنب موديل مسك",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/10.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -111,7 +111,7 @@ export const Seats = [
   {
     id: 71,
     name: "طقم كروس",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/11.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -122,7 +122,7 @@ export const Seats = [
   {
     id: 72,
     name: "طقم كوزانى لون بنى ",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/12.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -133,7 +133,7 @@ export const Seats = [
   {
     id: 73,
     name: "طقم كنب موديل نيوم",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/13.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -144,7 +144,7 @@ export const Seats = [
   {
     id: 74,
     name: "طقم كوزانى ",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/14.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -155,7 +155,7 @@ export const Seats = [
   {
     id: 75,
     name: "طقم كنب موديل أيزى",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/15.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -166,7 +166,7 @@ export const Seats = [
   {
     id: 76,
     name: "كنبة ثلاثة اشخاص لندن",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/16.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -177,7 +177,7 @@ export const Seats = [
   {
     id: 77,
     name: "كرسى فوتيه خشب",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/17.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -188,7 +188,7 @@ export const Seats = [
   {
     id: 78,
     name: "كرسي بذراعين، تنجيد جلد",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/18.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -199,7 +199,7 @@ export const Seats = [
   {
     id: 79,
     name: "كرسي خشب تنجيد جلد",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/19.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -210,7 +210,7 @@ export const Seats = [
   {
     id: 80,
     name: "كرسي خشب تنجيد قطيفة",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/20.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -221,7 +221,7 @@ export const Seats = [
   {
     id: 81,
     name: "كرسي خشب تنجيد جلد",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/21.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -232,7 +232,7 @@ export const Seats = [
   {
     id: 82,
     name: "كرسي خشب تنجيد قطيفة",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/22.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -243,7 +243,7 @@ export const Seats = [
   {
     id: 83,
     name: "طقم كنب ثلاثة اشخاص ",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/23.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -254,7 +254,7 @@ export const Seats = [
   {
     id: 84,
     name: "كرسي خشب تنجيد جلد",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/24.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -265,7 +265,7 @@ export const Seats = [
   {
     id: 85,
     name: "كنبة ثلاثة اشخاص جلد ",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/25.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -276,7 +276,7 @@ export const Seats = [
   {
     id: 86,
     name: "كنبة ثلاثة اشخاص بظهر متحرك",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/26.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -287,7 +287,7 @@ export const Seats = [
   {
     id: 87,
     name: "كنبة ثلاثية بدون زراع موديل ",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/27.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -298,7 +298,7 @@ export const Seats = [
   {
     id: 88,
     name: "كرسى فوتيه خشب",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/28.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -309,7 +309,7 @@ export const Seats = [
   {
     id: 89,
     name: "كرسي خشب تنجيد قطيفة",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/29.jpg",
     imageAlt: "مقعد",
     price: "$35",
@@ -320,7 +320,7 @@ export const Seats = [
   {
     id: 90,
     name: "كنبة شخصين بمخزن اضافى ",
-    href: "#",
+
     imageSrc: "/imgs/products/Seats/30.jpg",
     imageAlt: "مقعد",
     price: "$35",
