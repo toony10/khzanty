@@ -8,6 +8,7 @@ import About from "../components/About";
 import Products from "../components/Products";
 import Location from "../components/Location";
 import Contact from "../components/Contact";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className='bg-white'>
@@ -20,6 +21,7 @@ export default function Home() {
       <Products />
       <Location />
       <Contact />
+      <Footer />
     </div>
   );
 }

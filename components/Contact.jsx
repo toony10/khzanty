@@ -40,14 +40,14 @@ const Contact = () => {
             <label
               for='email'
               className='block mb-2 text-sm font-medium text-gray-900 dark:text-gray-600 text-right'>
-              بريدك الألكتروني
+              البريد الألكتروني{" "}
             </label>
             <input
               type='email'
               id='email'
               name='from_email'
               className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:placeholder-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light text-right'
-              placeholder='name@examble.com'
+              placeholder='ادخل بريدك الألكتروني'
               required
             />
           </div>
@@ -60,7 +60,7 @@ const Contact = () => {
               id='subject'
               name='from_phone'
               className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:placeholder-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light text-right'
-              placeholder='01090677513'
+              placeholder='ادخل رقم هاتفك'
               required
             />
           </div>

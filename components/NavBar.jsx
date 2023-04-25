@@ -88,15 +88,15 @@ const NavBar = () => {
             ))}
           </ul>
         </div>
-        <Link href='/' className='w'>
+        <Link href='/'>
           <Image
             src={Logo}
             width={100}
             height={0}
             sizes='100vw'
             alt='logo'
-            className={`ease-in duration-150 w-[4rem] ${
-              logoBig ? "lg:w-[7rem]" : "lg:w-[4rem]"
+            className={`ease-in duration-200 w-[4rem] ${
+              logoBig ? "lg:w-[7.5rem]" : "lg:w-[4.5rem]"
             }`}
           />
         </Link>
