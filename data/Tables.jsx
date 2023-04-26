@@ -322,9 +322,3 @@ export const Tables = [
     code: "#220",
   },
 ];
-
-// data shuffle
-const shuffle = (arr) => {
-  arr.sort(() => Math.random() - 0.5);
-};
-shuffle(Tables);

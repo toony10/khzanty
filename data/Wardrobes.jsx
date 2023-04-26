@@ -330,9 +330,3 @@ export const Wardrobes = [
     code: "#130",
   },
 ];
-
-// data shuffle
-const shuffle = (arr) => {
-  arr.sort(() => Math.random() - 0.5);
-};
-shuffle(Wardrobes);

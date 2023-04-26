@@ -297,9 +297,3 @@ export const Beds = [
     code: "#160",
   },
 ];
-
-// data shuffle
-const shuffle = (arr) => {
-  arr.sort(() => Math.random() - 0.5);
-};
-shuffle(Beds);
