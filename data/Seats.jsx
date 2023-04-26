@@ -331,7 +331,7 @@ export const Seats = [
 ];
 
 // data shuffle
-// const shuffle = (arr) => {
-//   arr.sort(() => Math.random() - 0.5);
-// };
-// shuffle(Seats);
+const shuffle = (arr) => {
+  arr.sort(() => Math.random() - 0.5);
+};
+shuffle(Seats);

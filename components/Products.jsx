@@ -58,15 +58,15 @@ const Products = () => {
   };
 
   // data shuffle
-  // const shuffle = (arr) => {
-  //   arr.sort(() => Math.random() - 0.5);
-  // };
+  const shuffle = (arr) => {
+    arr.sort(() => Math.random() - 0.5);
+  };
 
-  // useEffect(() => {
-  //   const productClone = products.slice();
-  //   shuffle(productClone);
-  //   setProducts(productClone);
-  // }, []);
+  useEffect(() => {
+    const productClone = products.slice();
+    shuffle(productClone);
+    setProducts(productClone);
+  }, []);
 
   return (
     <section className='bg-white' id='products'>
@@ -82,7 +82,7 @@ const Products = () => {
             key={category.id}
             onClick={() => {
               const productClone = category.data.slice();
-              // shuffle(productClone);
+              shuffle(productClone);
               setProducts(productClone);
               window.scrollTo({
                 top: 1600,

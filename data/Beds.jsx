@@ -299,7 +299,7 @@ export const Beds = [
 ];
 
 // data shuffle
-// const shuffle = (arr) => {
-//   arr.sort(() => Math.random() - 0.5);
-// };
-// shuffle(Beds);
+const shuffle = (arr) => {
+  arr.sort(() => Math.random() - 0.5);
+};
+shuffle(Beds);

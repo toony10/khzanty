@@ -332,7 +332,7 @@ export const Wardrobes = [
 ];
 
 // data shuffle
-// const shuffle = (arr) => {
-//   arr.sort(() => Math.random() - 0.5);
-// };
-// shuffle(Wardrobes);
+const shuffle = (arr) => {
+  arr.sort(() => Math.random() - 0.5);
+};
+shuffle(Wardrobes);
