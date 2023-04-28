@@ -13,7 +13,8 @@ export default function Home() {
   return (
     <div className='bg-white'>
       <Head>
-        <title>خزانتي</title>
+        <title>Khazanty - خزانتي</title>
+        <meta name='description' content='we are here for you.' />
       </Head>
       <Slider />
       {/*components*/}
