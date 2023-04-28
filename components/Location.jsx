@@ -22,9 +22,9 @@ const contactInfo = [
   },
   {
     id: 3,
-    text: "amiranton257@gmail.com",
+    text: "kazantyksa@gmail.com",
     icon: <MdEmail className='m-auto' color='green' />,
-    href: "mailto: amiranton257@gmail.com",
+    href: "mailto: kazantyksa@gmail.com",
   },
 ];
 
