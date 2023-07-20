@@ -74,7 +74,7 @@ const Products = () => {
         منتجاتنا
       </h1>
       <p className='font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl'>
-        اختر مايناسب بيتك
+        اختر ماينناسب بيتك
       </p>
       <div className='flex flex-wrap sm:flex-nowrap gap-5 px-7 mt-7 justify-between sm:justify-center'>
         {categories.map((category) => (
